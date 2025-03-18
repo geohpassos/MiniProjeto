@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}    
+
+header{
+    background-image: linear-gradient( rgb(36, 102, 156), rgb(18, 11, 112));
+    
+}
+img{
+    display: block;
+    margin: auto;
+    width: 10%;
+    border-radius: 7px;
+    border-radius: 110px;
+
+}
+.logo{
+    position: relative;
+    margin: 0 ;
+}
+.menu{
+    margin: auto;
+    width: 17%;
+    padding: 5px;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    background-color: #0e3c79;
+    
+    
+    
+    
+
+
+
+}
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu ul li a:hover{
+    background-color: rgb(6, 9, 65);
+}
+.menu ul ul{
+    display: none;
+    
+}
+
+.menu ul li:hover ul {
+    display: block;
+
+    
+    
+}
+.menu ul ul{
+width: 15px;
+}
+.menu ul ul li a{
+    display: block;
+}
+
+
+.configimg{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Pd-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container{
+    background-image: linear-gradient( rgb(12, 6, 92), rgb(36, 102, 156));
+    min-height:  60vh;
+    padding: 50px;
+    border-bottom: 2px #000000;
+   
+}    
+
+.box{
+    width: 30%;
+    margin: 1%;
+    display: inline-block;
+    padding: 15px;
+}
+#img1{
+    background-image: url(../LOJA/img/x-powermet.png);
+}
+#img-2{
+    background-image:url(../LOJA/img/maple1.png)
+}
+#img-3{
+    background-image:url(../LOJA/img/power.png)
+}
+#img-4{
+    background-image:url(../LOJA/img/x-power\ 6.png)
+}
+#img-5{
+    background-image:url(../LOJA/img/x-power\ 4.png)
+}
+#img-6{
+    background-image:url(../LOJA/img/x\ powerolim.png)
+}
+
+h3{
+    margin-bottom: 10px;
+    color: #000000;
+    border-left: 5px solid #ff7b7b;
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.box p{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.destaqueCor{
+    font-weight: 900;
+}
+
+.botao{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: initial;
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    transition: .4s;
+}
+.metal{
+    width: 300px;
+    height: 100px;
+}
+
+.botao:hover{
+    background-color: rgb(18, 11, 112);
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer{
+    background-image: linear-gradient(rgb(19, 72, 116), rgb(12, 8, 71));
+   
+    padding: 15px;
+    text-align: center;
+    color: white;
+    
+}
